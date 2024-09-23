@@ -19,8 +19,8 @@ SELECT
   Resultado,    
   Restricao_de_Contato_Semana_Passada,    
   Faixa_Rendimento_Retirada_Dinheiro,    
-  Presenca_Alcool_70_ou_Superior_No_Domicilio,
-  Presenca_de_Mascaras_No_Domicilio
+  Internado_Mais_UmDia,
+  Sedado_Entubado_Ventilador
 FROM `Covid.PNAD_COVID_092020`
 
 UNION ALL
@@ -45,8 +45,8 @@ SELECT
   Resultado,    
   Restricao_de_Contato_Semana_Passada,    
   Faixa_Rendimento_Retirada_Dinheiro,    
-  Presenca_Alcool_70_ou_Superior_No_Domicilio,
-  Presenca_de_Mascaras_No_Domicilio
+  Internado_Mais_UmDia,
+  Sedado_Entubado_Ventilador
 FROM `Covid.PNAD_COVID_102020`
 
 UNION ALL
@@ -71,6 +71,6 @@ SELECT
   Resultado,    
   Restricao_de_Contato_Semana_Passada,    
   Faixa_Rendimento_Retirada_Dinheiro,    
-  Presenca_Alcool_70_ou_Superior_No_Domicilio,
-  Presenca_de_Mascaras_No_Domicilio
+  Internado_Mais_UmDia,
+  Sedado_Entubado_Ventilador
 FROM `Covid.PNAD_COVID_112020`;
